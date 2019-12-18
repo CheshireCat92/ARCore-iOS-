@@ -105,6 +105,8 @@
 				5361F12223AAD83A00EC9119 /* Sources */,
 				5361F12323AAD83A00EC9119 /* Frameworks */,
 				5361F12423AAD83A00EC9119 /* Resources */,
+				D83C02F971AE986705BED8F1 /* [CP] Embed Pods Frameworks */,
+				61E2A798FD699CF1676F81D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +165,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		61E2A798FD699CF1676F81D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARCoreUsage/Pods-ARCoreUsage-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARCoreUsage/Pods-ARCoreUsage-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARCoreUsage/Pods-ARCoreUsage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D83C02F971AE986705BED8F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARCoreUsage/Pods-ARCoreUsage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARCoreUsage/Pods-ARCoreUsage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARCoreUsage/Pods-ARCoreUsage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		ED66085A9FEA46A874DBBAC5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
